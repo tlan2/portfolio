@@ -22,7 +22,7 @@ class App extends React.Component {
     this.state = {
       title: 'Tom Lancaster',
       headerLinks: [
-        {title: 'Home', path: '/'},
+        {title: 'Home', path: '/portfolio'},
         {title: 'About', path: '/about'},
         {title: 'Projects', path: '/projects'},
         {title: 'Books', path: '/books'},
@@ -55,12 +55,12 @@ class App extends React.Component {
             
             <Navbar className="border-bottom" bg="transparent" expand="lg">
               {/* <Navbar.Brand href="/"><img src={logo} id="logo" alt="Logo"/></Navbar.Brand> */}
-              <Navbar.Brand href="/" id="logo">Tom Lancaster</Navbar.Brand>
+              <Navbar.Brand href="/portfolio" id="logo">Tom Lancaster</Navbar.Brand>
 
               <Navbar.Toggle className="border-0" aria-controls='navbar-toggle' />
               <Navbar.Collapse id="navbar-toggle"> 
                 <Nav className="ml-auto font-weight-bold">
-                  <Link className="nav-link" to="/"> HOME</Link>
+                  <Link className="nav-link" to="/portfolio"> HOME</Link>
                   <Link className="nav-link" to="/About"> ABOUT</Link>
                   <Link className="nav-link" to="/Projects"> PROJECTS</Link>
                   <Link className="nav-link" to="/Books"> BOOKS</Link>
@@ -69,7 +69,7 @@ class App extends React.Component {
               </Navbar.Collapse>
             </Navbar>
 
-            <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}/>} />
+            <Route path="/portfolio" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}/>} />
             <Route path="/about" render={() => <AboutPage title={this.state.about.title} text={this.state.about.text}/>} />
             <Route path="/projects" render={() => <ProjectsPage title={this.state.projects.title} text={this.state.projects.text}/>} />
             <Route path="/books" render={() => <BooksPage title={this.state.books.title} subTitle={this.state.books.subTitle} text={this.state.books.text}/>} />

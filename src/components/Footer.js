@@ -14,7 +14,9 @@ function Footer() {
                     value={{
                         color: "#4D4C4C",
                         size: "2em",
-                        style: { margin: "5px" },
+                        style: { margin: "5px", 
+                            ":hover": { opacity: "70%"}
+                        },
                     }}
                 >
                     <div>

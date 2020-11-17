@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c4025456.chunk.css",
+    "main.js": "/portfolio/static/js/main.b1132830.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b1132830.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/css/2.8aa5a7f8.chunk.css": "/portfolio/static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.70650473.chunk.js": "/portfolio/static/js/2.70650473.chunk.js",
+    "static/js/2.70650473.chunk.js.map": "/portfolio/static/js/2.70650473.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.15af351cf6065396c7c12b11337a41f4.js": "/portfolio/precache-manifest.15af351cf6065396c7c12b11337a41f4.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.8aa5a7f8.chunk.css.map": "/portfolio/static/css/2.8aa5a7f8.chunk.css.map",
+    "static/css/main.c4025456.chunk.css.map": "/portfolio/static/css/main.c4025456.chunk.css.map",
+    "static/js/2.70650473.chunk.js.LICENSE.txt": "/portfolio/static/js/2.70650473.chunk.js.LICENSE.txt",
+    "static/media/digitalMind.jpg": "/portfolio/static/media/digitalMind.67548986.jpg",
+    "static/media/fluentForever.jpg": "/portfolio/static/media/fluentForever.c5866e94.jpg",
+    "static/media/howToWinFriends.jpg": "/portfolio/static/media/howToWinFriends.ef42640c.jpg",
+    "static/media/lancaster_resume.pdf": "/portfolio/static/media/lancaster_resume.e3beea79.pdf",
+    "static/media/likeabilityFactor.jpg": "/portfolio/static/media/likeabilityFactor.8b63e6e8.jpg",
+    "static/media/personalMBA.jpg": "/portfolio/static/media/personalMBA.9ba20e5f.jpg",
+    "static/media/phoenixProject.jpg": "/portfolio/static/media/phoenixProject.678e6e7e.jpg",
+    "static/media/readBook.jpg": "/portfolio/static/media/readBook.f7a20a2d.jpg",
+    "static/media/sprint.jpg": "/portfolio/static/media/sprint.ab22b481.jpg",
+    "static/media/strengthsfinder.jpg": "/portfolio/static/media/strengthsfinder.54243933.jpg",
+    "static/media/zenMotorcycle.jpg": "/portfolio/static/media/zenMotorcycle.16ddabba.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.209c2d7e.js",
+    "static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.70650473.chunk.js",
+    "static/css/main.c4025456.chunk.css",
+    "static/js/main.b1132830.chunk.js"
+  ]
+}

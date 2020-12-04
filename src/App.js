@@ -30,11 +30,10 @@ class App extends React.Component {
       home: {
         title: 'Hi, I\'m Tom.',
         subTitle: 'Aspiring Programmer.',
-        text: 'Seeking Employment as a Software Engineer or Full-Stack Engineer.'
+        // text: 'Seeking Employment as a Software Engineer or Full-Stack Engineer.'
       },
       about: {
-        title: 'About Me',
-        text: 'Click on the photos below to learn more about each project.'
+        title: 'About Me....',
       },
       projects: {
         title: 'Projects'
@@ -42,7 +41,7 @@ class App extends React.Component {
       books: {
         title: 'Books That Influenced Me',
         subTitle: '\"You will be the same person you are today in five years but for two things:  the people you meet and the books you read.\" -Charlie "Tremendous" Jones',
-        text: 'Click on the Cards to See What I Learned from Each Book'
+        // text: 'Click on the Cards to See What I Learned from Each Book'
       },
     }
   }
@@ -55,7 +54,7 @@ class App extends React.Component {
             
             <Navbar className="border-bottom" bg="transparent" expand="lg">
               {/* <Navbar.Brand href="/"><img src={logo} id="logo" alt="Logo"/></Navbar.Brand> */}
-              <Navbar.Brand href="/portfolio" id="logo">Tom Lancaster</Navbar.Brand>
+              <Navbar.Brand href="/portfolio" className="display-1 text-primary font-weight-bolder" id="logo">Tom Lancaster</Navbar.Brand>
 
               <Navbar.Toggle className="border-0" aria-controls='navbar-toggle' />
               <Navbar.Collapse id="navbar-toggle"> 

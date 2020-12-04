@@ -2,55 +2,7 @@ body {
   overflow-x: hidden;
 }
 
-#logo {
-  color: blue;
-  font-size: 20px;
-  font-weight: bold;
-}
 
-#homeHeader {
-  margin: 1% 0% 0% 0%;
-}
-
-#homePicture {
-  margin: 2% 0% 1% 32%;
-  height: 350px;
-}
-
-.carousel {
-  margin: 1% 22%;
-}
-
-
-#aboutHeader {
-  margin: 1% 0% 1% 0%;
-}
-
-#about {
-  font-size: 1.3em;
-}
-
-#boldBlue {
-  color: darkblue;
-  font-weight: 500;
-}
-
-#boldGreen {
-  color: #006600;
-  font-weight: 500;
-}
-
-#boldGreen > a {
-  text-decoration: none;
-}
-
-#externalLinkIcon:hover,
-#pdfIcon:hover,
-#slidesIcon:hover,
-#linkedInIcon:hover, 
-#gitHubIcon:hover {
-  opacity: 70%;
-}
 
 
 

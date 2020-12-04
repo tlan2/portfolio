@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-// import Hero from '../components/Hero';
+import Hero from '../components/Hero';
 // import Content from '../components/Content';
 import { FaLinkedin } from "react-icons/fa";
 import { Link } from 'react-router-dom';
@@ -93,10 +93,11 @@ function HomePage(props) {
             <Container>
             <Row className="justify-content-md-center">
                 <Col>
-                    <h2 className="text-center" id="homeHeader">Hi, I'm Tom.</h2>
+                    {/* <h2 className="text-center bold blue" id="homeHeader">Hi, I'm Tom.</h2> */}
+                    <Hero title={props.title}/>
                     <Image src="https://ik.imagekit.io/tlan2/headshot_VbGpzjweL.png" id="homePicture"/>
-                    <h4 className="mt-0 text-center">Software Engineer, former Business Professional.</h4>
-                    {/* <h4 className="text-center font-italic">Seeking Entry-Level Programming Positions</h4> */}
+                    <h4 className="mt-0 text-center">Software Engineer with Master's in Computer Science</h4>
+                    <h6 className="text-center font-italic font-weight-bold">Open to Full Stack / Software Engineer Roles</h6>
                 </Col>
             </Row>
 
@@ -111,7 +112,7 @@ function HomePage(props) {
                     >
                         <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
                         {slides}
-                        <CarouselControl className="" direction="prev" directionText="Previous" onClickHandler={previous} />
+                        <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
                         <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
                     </Carousel>
                 </Col>

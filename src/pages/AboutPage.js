@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Hero from '../components/Hero';
 import Content from '../components/Content';
 import {
         Image,
@@ -10,25 +11,49 @@ function AboutPage(props) {
 
     return(
         <div>
-            <h1 className="text-center" id="aboutHeader">About Me</h1>
+            {/* <h1 className="text-center" id="aboutHeader">About Me...</h1> */}
+            <Hero title={props.title}/>
             <Row className="justify-content-md-center row">
-                <Image src="https://ik.imagekit.io/tlan2/DSC03109v1.1_zE07EZ2zI.png" className="border" fluid/>
+                <Image src="https://ik.imagekit.io/tlan2/DSC03109v1.1_zE07EZ2zI.png" className="border" id="aboutPicture" fluid/>
             </Row>
-            <p className="mt-1 text-center font-italic font-smaller">Patagonia, Chile</p>
+            <p className="mt-1 text-center font-italic font-smaller">Me in Patagonia, Chile circa 2013</p>
             <Content>
-                <div className="mt-3" id="about">
-                    <p>Before joining the world of <span id="highlight">coding</span>, I studied <span id="boldBlue">business</span>,
-                    <span id="boldBlue"> information systems</span>, and <span id="boldBlue">philosophy</span>.
-                    Previously, I worked in <span id="boldBlue">Big 4 accounting</span>, <span id="boldBlue">education</span>, 
-                    and <span id="boldBlue">banking</span>.</p>
-                    <p className="mt-3">All things <span id="highlight">tech</span> always fascinated me. As a child, I would stay inside and play with the 
+                <div className="mt-2" id="about">
+                    <h3 className="mt-0 text-primary" id="aboutHeader">...The Coder</h3>
+                    <p className="mt-3">All things tech always fascinated me. As a child, I would stay inside and play with the 
                         Macintosh Classic while all the other kids played outside. Later, I became the “computer guy” at my house 
-                        fixing and setting up all our technical needs. While earning a business IT degree at <a href="https://www.calpoly.edu/about" target="_blank"><span id="boldGreen">Cal Poly-San Luis Obispo</span></a>, 
-                        I remember how satisfying it was to complete my
-                        <span id="boldBlue"> C#</span> and <span id="boldBlue">Visual Studio</span> projects. I have always enjoyed 
-                        problem-solving with technology. After living abroad in Santiago, Chile and exploring a religious calling, I decided 
-                        to pursue this passion by completing a master’s degree in <span id="boldBlue">computer science</span> from <a href="https://www.pdx.edu/computer-science/" target="_blank"><span id="boldGreen">Portland State University</span></a> in August 2020.</p>
-                    {/* <p className="my-3">Let’s connect on <a href="https://www.linkedin.com/in/thomasmorelancaster/" target="_blank">LinkedIn</a> or check out my <a href="/projects" target="_blank"><span id="boldBlue">Projects</span></a> and <a href="" onClick={() => window.open(resume)} target="_blank"><span id="boldBlue">Resume</span></a>!</p> */}
+                        fixing and setting up all our technical needs. While earning a <span className="bold black">business IT degree</span> at <a href="https://www.calpoly.edu/about" target="_blank"><span className="bold green">Cal Poly-San Luis Obispo</span></a>, 
+                        I remember how satisfying it was to complete my programming projects. I have always enjoyed 
+                        problem-solving with technology.</p>
+                    <p>I recently completed my <span className="bold black">masters</span> in <span className="bold blue">computer science</span> from&nbsp;  
+                        <a href="https://www.pdx.edu/computer-science/" target="_blank"><span className="bold green">Portland State University</span></a> 
+                        &nbsp;in August 2020. I have completed projects using 
+                        <span className="bold blue"> Python</span>,
+                        <span className="bold blue"> Java</span>,
+                        <span className="bold blue"> JavaScript</span>,
+                        <span className="bold blue"> HTML</span>,
+                        <span className="bold blue"> CSS</span>,
+                        <span className="bold blue"> React</span>, and 
+                        <span className="bold blue"> SQL</span>. I am now actively seeking <span className="bold">software engineer </span> 
+                        and <span className="bold">full-stack developer roles</span>. My goal is to become a software developer that 
+                        positively affects the work environment and produces meaningful products and services that make people’s 
+                        lives a little bit better.</p>
+                    <h3 className="mt-1 text-primary">...The Professional</h3>
+                    <p>Previously, I lived and worked in&nbsp;
+                        <a href="https://en.wikipedia.org/wiki/Santiago" target="_blank"><span className="bold black">Santiago, Chile</span></a>, 
+                        discerned a religious calling, and formally studied Spanish and philosophy. I also worked in Big 4 accounting, education, and banking industries.
+                        According to Strengthsfinders assessment, my strengths are&nbsp;
+                        <a href="https://www.gallup.com/cliftonstrengths/en/252152/analytical-theme.aspx" target="_blank"><span className="bold black">Analytical</span></a>,&nbsp;
+                        <a href="https://www.gallup.com/cliftonstrengths/en/252161/arranger-theme.aspx" target="_blank"><span className="bold black">Arranger</span></a>,&nbsp;
+                        <a href="https://www.gallup.com/cliftonstrengths/en/252266/includer-theme.aspx" target="_blank"><span className="bold black">Includer</span></a>,&nbsp;
+                        <a href="https://www.gallup.com/cliftonstrengths/en/252254/harmony-theme.aspx" target="_blank"><span className="bold black">Harmony</span></a>,&nbsp;
+                        <a href="https://www.gallup.com/cliftonstrengths/en/252320/responsibility-theme.aspx" target="_blank"><span className="bold black">Responsibility</span></a>.
+                    </p>
+                    <h3 className="mt-1 text-primary">...The Person</h3>
+                    <p> 
+                       I am a husband, father, brother, traveler, volunteer, yoga enthusiast, reader, and hiker. 
+                    </p>
+
                 </div>
             </Content>
         </div>

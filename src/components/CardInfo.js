@@ -7,9 +7,11 @@ function CardInfo(props) {
     
     return(
         <animated.div className="t-card-info" style={style}>
-            <p className="t-card-title">{props.title}</p>
-            <p className="t-card-sub-title">{props.subTitle}</p>
-            <a href={props.link} target="_blank" rel="noopener noreferrer">Learn More</a>
+            {/* <div className="text-center"> */}
+                <p className="t-card-title">{props.title}</p>
+                <p className="t-card-sub-title">{props.subTitle}</p>
+                <a href={props.link} target="_blank" rel="noopener noreferrer">Learn More</a>
+            {/* </div> */}
         </animated.div>
     );
 }

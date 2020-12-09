@@ -12,11 +12,9 @@ code {
     monospace;
 }
 
-#logo {
-  /* color: blue; */
+/* #logo {
   font-size: 2rem;
-  /* font-weight: bolder; */
-  /* font-family: 'Libre Baskerville'; */
+
 }
 
 #homeHeader {
@@ -31,8 +29,6 @@ code {
 
 .carousel {
   margin: 1% 22%;
-  /* width: auto;
-  height: 100px; */
 }
 
 
@@ -68,15 +64,15 @@ code {
   color: black;
 }
 
-#externalLinkIcon:hover,
-#pdfIcon:hover,
-#slidesIcon:hover,
-#linkedInIcon:hover, 
-#gitHubIcon:hover {
-  opacity: 70%;
+.icons {
+  color: #4D4C4C;
+  size: 5em;
 }
 
-/* t-card name used to differentiate from Card class in React */
+.icon > *:hover {
+  fill-opacity: 70%;
+}
+
 .t-card {
   margin: 20px;
 } 
@@ -98,7 +94,6 @@ code {
 .t-card-title {
   font-size: 24px;
   margin: 0px;
-  /* width: 80%; */
  
 }
 
@@ -121,7 +116,7 @@ code {
 .err-msg {
   color: #EE6352;
   padding: 10px 15px;
-}
+} */
 
 /* .pdf {
   align-items: center;

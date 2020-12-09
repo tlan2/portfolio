@@ -9,14 +9,11 @@ function Footer() {
     return(
         <footer className="mt-5">
             <Container fluid={true}>
-                <Row className="border-top justify-content-center pt-4">
+                <Row className="border-top justify-content-center pt-3">
                 <IconContext.Provider
                     value={{
-                        color: "#4D4C4C",
-                        size: "2em",
-                        style: { margin: "5px", 
-                            ":hover": { opacity: "70%"}
-                        },
+                        size: "2.5em",
+                        className: "footer-icons"
                     }}
                 >
                     <div>

@@ -29,7 +29,7 @@ class App extends React.Component {
       ],
       home: {
         title: 'Hi, I\'m Tom.',
-        subTitle: 'Aspiring Programmer.',
+        // subTitle: 'Aspiring Programmer.',
         // text: 'Seeking Employment as a Software Engineer or Full-Stack Engineer.'
       },
       about: {
@@ -41,7 +41,7 @@ class App extends React.Component {
       books: {
         title: 'Books That Influenced Me',
         subTitle: '\"You will be the same person you are today in five years but for two things:  the people you meet and the books you read.\" -Charlie "Tremendous" Jones',
-        // text: 'Click on the Cards to See What I Learned from Each Book'
+        text: 'Click to see more'
       },
     }
   }

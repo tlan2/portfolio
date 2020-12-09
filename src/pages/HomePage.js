@@ -96,14 +96,14 @@ function HomePage(props) {
                     {/* <h2 className="text-center bold blue" id="homeHeader">Hi, I'm Tom.</h2> */}
                     <Hero title={props.title}/>
                     <Image src="https://ik.imagekit.io/tlan2/headshot_VbGpzjweL.png" id="homePicture"/>
-                    <h4 className="mt-0 text-center">Software Engineer with Master's in Computer Science</h4>
-                    <h6 className="text-center font-italic font-weight-bold">Open to Full Stack / Software Engineer Roles</h6>
+                    <h4 className="mt-0 text-center mt-3">Software Engineer with Master's in Computer Science</h4>
+                    <h6 className="text-center font-italic font-weight-bold">Seeking Full Stack / Software Engineer Roles</h6>
                 </Col>
             </Row>
 
             <Row className="justify-content-md-center mt-3">
                 <Col>
-                    <h4 className="text-center" id="homeHeader">What Others Say About Me:</h4>
+                    <h4 className="text-center" id="recommendations">What Others Say About Me:</h4>
                     <Carousel
                         interval={null}
                         activeIndex={activeIndex}

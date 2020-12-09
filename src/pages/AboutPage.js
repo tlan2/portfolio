@@ -11,7 +11,6 @@ function AboutPage(props) {
 
     return(
         <div>
-            {/* <h1 className="text-center" id="aboutHeader">About Me...</h1> */}
             <Hero title={props.title}/>
             <Row className="justify-content-md-center row">
                 <Image src="https://ik.imagekit.io/tlan2/DSC03109v1.1_zE07EZ2zI.png" className="border" id="aboutPicture" fluid/>
@@ -19,22 +18,22 @@ function AboutPage(props) {
             <p className="mt-1 text-center font-italic font-smaller">Me in Patagonia, Chile circa 2013</p>
             <Content>
                 <div className="mt-2" id="about">
-                    <h3 className="mt-0 text-primary" id="aboutHeader">...The Coder</h3>
+                    <h3 className="mt-0 text-primary">...The Programmer</h3>
                     <p className="mt-3">All things tech always fascinated me. As a child, I would stay inside and play with the 
                         Macintosh Classic while all the other kids played outside. Later, I became the “computer guy” at my house 
                         fixing and setting up all our technical needs. While earning a <span className="bold black">business IT degree</span> at <a href="https://www.calpoly.edu/about" target="_blank"><span className="bold green">Cal Poly-San Luis Obispo</span></a>, 
                         I remember how satisfying it was to complete my programming projects. I have always enjoyed 
                         problem-solving with technology.</p>
-                    <p>I recently completed my <span className="bold black">masters</span> in <span className="bold blue">computer science</span> from&nbsp;  
+                    <p>I recently completed my <span className="bold black">masters</span> in <span className="bold black">computer science</span> from&nbsp;  
                         <a href="https://www.pdx.edu/computer-science/" target="_blank"><span className="bold green">Portland State University</span></a> 
                         &nbsp;in August 2020. I have completed projects using 
-                        <span className="bold blue"> Python</span>,
-                        <span className="bold blue"> Java</span>,
-                        <span className="bold blue"> JavaScript</span>,
-                        <span className="bold blue"> HTML</span>,
-                        <span className="bold blue"> CSS</span>,
-                        <span className="bold blue"> React</span>, and 
-                        <span className="bold blue"> SQL</span>. I am now actively seeking <span className="bold">software engineer </span> 
+                        <span className="bold black"> Python</span>,
+                        <span className="bold black"> Java</span>,
+                        <span className="bold black"> JavaScript</span>,
+                        <span className="bold black"> HTML</span>,
+                        <span className="bold black"> CSS</span>,
+                        <span className="bold black"> React</span>, and 
+                        <span className="bold black"> SQL</span>. I am now actively seeking <span className="bold">software engineer </span> 
                         and <span className="bold">full-stack developer roles</span>. My goal is to become a software developer that 
                         positively affects the work environment and produces meaningful products and services that make people’s 
                         lives a little bit better.</p>

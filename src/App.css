@@ -2,6 +2,132 @@ body {
   overflow-x: hidden;
 }
 
+#logo {
+  /* border: 1px solid red; */
+  font-size: 2rem;
+}
+
+#recommendations {
+  /* border: 1px solid red; */
+  margin: 1% 0% 0% 0%;
+}
+
+#homePicture {
+  /* border: 1px solid red; */
+  display: block;
+  /* margin: 0% 0% 1% %;32 */
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  height:300px;
+  border-radius: 200px;
+}
+
+.carousel {
+  /* border: 1px solid red; */
+  display:block;
+  margin: 0.5% 22%;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* width: auto;
+  height: 100px; */
+}
+
+
+#aboutHeader {
+  /* border: 1px solid red; */
+  margin: 1% 0% 1% 0%;
+}
+
+#aboutPicture {
+  /* border: 1px solid red; */
+  border-radius: 50px;
+}
+
+#about {
+  /* border: 1px solid red; */
+  font-size: 1.3em;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.blue {
+  color: blue;
+}
+
+.darkblue {
+  color: darkblue;
+}
+
+.green {
+  color: #006600;
+}
+
+.black{
+  color: black;
+}
+
+.icons {
+  /* border: 1px solid red; */
+  color: #4D4C4C;
+  margin: 0px 5px;
+}
+
+.footer-icons {
+  /* border: 1px solid red; */
+  color: #4D4C4C;
+  margin: 0px 5px;
+}
+
+.icons:hover, .footer-icons:hover {
+  opacity: 60%;
+}
+
+
+/* t-card name used to differentiate from Card class in React */
+.t-card {
+  /* border: 1px solid red; */
+  margin: 20px;
+} 
+
+.t-card-image {
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  width: 300px;
+  height: 480px;
+  box-shadow: 0px 0px 3px 1px #ccc;
+}
+
+.t-card-info {
+  /* border: 1px solid red; */
+  margin-top: 10px;
+  min-height: 100px;
+  width: 70%;
+  text-align: center;
+}
+
+.t-card-title {
+  /* border: 1px solid red; */
+  font-size: 24px;
+  margin: 0px;
+  /* width: 80%; */
+ 
+}
+
+.t-card-sub-title {
+  /* border: 1px solid red; */
+  font-size: 16px;
+  margin: 0px;
+  text-align: center;
+}
+
+.t-card-info > a {
+  text-align: center;
+}
+
+
 
 
 

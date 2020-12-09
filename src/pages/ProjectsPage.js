@@ -43,17 +43,16 @@ function ProjectsPage(props) {
                     <Row className="d-flex align-items-end justify-content-center pt-1">
                         <IconContext.Provider
                             value={{
-                                color: "#4D4C4C",
-                                size: "2em",
-                                style: { margin: "2px" },
+                                size: "2.25em",
+                                className: "icons"
                             }}
                         >
                             <div>
                                 <a href="https://best-trivia-game.herokuapp.com/" target="_blank">
-                                    <FaExternalLinkAlt id="externalLinkIcon" className="mx-2"/>
+                                    <FaExternalLinkAlt className="mx-2"/>
                                 </a>
                                 <a href="https://github.com/charboltron/trivia_app" target="_blank">
-                                    <FaGithub id="gitHubIcon" className="mx-2"/>
+                                    <FaGithub className="mx-2"/>
                                 </a>
                             </div>
                         </IconContext.Provider>
@@ -69,17 +68,16 @@ function ProjectsPage(props) {
                     <Row className="justify-content-center pt-1">
                         <IconContext.Provider
                             value={{
-                                color: "#4D4C4C",
-                                size: "2em",
-                                style: { margin: "2px" },
+                                size: "2.25em",
+                                className: "icons"
                             }}
                         >
-                            <div className="mt-4">
+                            <div>
                                 <a href="https://uncle-buck.herokuapp.com/" target="_blank">
-                                    <FaExternalLinkAlt id="externalLinkIcon" className="mx-2"/>
+                                    <FaExternalLinkAlt className="mx-2"/>
                                 </a>
                                 <a href="https://github.com/Team-Uncle-Buck/uncle_buck" target="_blank">
-                                    <FaGithub id="gitHubIcon" className="mx-2"/>
+                                    <FaGithub className="mx-2"/>
                                 </a>
                             </div>
                         </IconContext.Provider>
@@ -95,17 +93,16 @@ function ProjectsPage(props) {
                     <Row className="justify-content-center">
                         <IconContext.Provider
                             value={{
-                                color: "#4D4C4C",
-                                size: "2em",
-                                style: { margin: "2px" },
+                                size: "2.25em",
+                                className: "icons"
                             }}
                         >
                             <div className="d-flex align-items-end">
                                 <a href="http://batter-on-deck.herokuapp.com/" target="_blank">
-                                    <FaExternalLinkAlt id="externalLinkIcon" className="mx-2"/>
+                                    <FaExternalLinkAlt className="mx-2"/>
                                 </a>
                                 <a href="https://github.com/tlan2/batterOnDeck" target="_blank">
-                                    <FaGithub id="gitHubIcon" className="mx-2"/>
+                                    <FaGithub className="mx-2"/>
                                 </a>
                             </div>
                         </IconContext.Provider>
@@ -122,14 +119,13 @@ function ProjectsPage(props) {
                     <Row className="justify-content-center pt-1">
                         <IconContext.Provider
                             value={{
-                                color: "#4D4C4C",
-                                size: "2em",
-                                style: { margin: "2px" },
+                                size: "2.25em",
+                                className: "icons"
                             }}
                         >
-                            <div className="mt-4">
+                            <div>
                                 <a href="https://github.com/tlan2/PortlandStateJavaSummer2020" target="_blank">
-                                    <FaGithub id="gitHubIcon" className="mx-2"/>
+                                    <FaGithub className="mx-2"/>
                                 </a>
                             </div>
                         </IconContext.Provider>
@@ -147,14 +143,13 @@ function ProjectsPage(props) {
                     <Row className="justify-content-center pt-1">
                         <IconContext.Provider
                             value={{
-                                color: "#4D4C4C",
-                                size: "2em",
-                                style: { margin: "2px" },
+                                size: "2.25em",
+                                className: "icons"
                             }}
                         >
-                            <div className="mt-4">
+                            <div>
                                 <a href="https://github.com/tlan2/monopoly_simulation" target="_blank">
-                                    <FaGithub id="gitHubIcon" className="mx-2"/>
+                                    <FaGithub className="mx-2"/>
                                 </a>
                             </div>
                         </IconContext.Provider>
@@ -170,17 +165,16 @@ function ProjectsPage(props) {
                     <Row className="justify-content-center pt-1">
                         <IconContext.Provider
                             value={{
-                                color: "#4D4C4C",
-                                size: "2em",
-                                style: { margin: "2px" },
+                                size: "2.25em",
+                                className: "icons"
                             }}
                         >
-                            <div className="mt-4">
+                            <div>
                                 <a href="http://tlan2.pythonanywhere.com/" target="_blank">
-                                    <FaExternalLinkAlt id="externalLinkIcon" className="mx-2"/>
+                                    <FaExternalLinkAlt className="mx-2"/>
                                 </a>
                                 <a href="https://github.com/tlan2/FantasyFootballDraftCalculator" target="_blank">
-                                    <FaGithub id="gitHubIcon" className="mx-2"/>
+                                    <FaGithub className="mx-2"/>
                                 </a>
                             </div>
                         </IconContext.Provider>
@@ -196,14 +190,13 @@ function ProjectsPage(props) {
                     <Row className="justify-content-center pt-1">
                         <IconContext.Provider
                             value={{
-                                color: "#4D4C4C",
-                                size: "2em",
-                                style: { margin: "2px" },
+                                size: "2.25em",
+                                className: "icons"
                             }}
                         >
-                            <div className="mt-4">
+                            <div>
                                 <a href="https://github.com/charboltron/ftp_client_server" target="_blank">
-                                    <FaGithub id="gitHubIcon" className="mx-2"/>
+                                    <FaGithub className="mx-2"/>
                                 </a>
                             </div>
                         </IconContext.Provider>
@@ -219,14 +212,13 @@ function ProjectsPage(props) {
                     <Row className="justify-content-center pt-1">
                         <IconContext.Provider
                             value={{
-                                color: "#4D4C4C",
-                                size: "2em",
-                                style: { margin: "1em" },
+                                size: "2.25em",
+                                className: "icons"
                             }}
                         >
                             <div>
                                 <a href="https://drive.google.com/file/d/1Bh20HlyhlKU4DOhaKU5tdQ7nviwUSWeY/view" target="_blank">
-                                    <GrDocumentPdf id="pdfIcon" />
+                                    <GrDocumentPdf/>
                                 </a>
                             </div>
                         </IconContext.Provider>
@@ -244,14 +236,13 @@ function ProjectsPage(props) {
                     <Row className="justify-content-center pt-1">
                         <IconContext.Provider
                             value={{
-                                color: "#4D4C4C",
-                                size: "2em",
-                                style: { margin: "1em" },
+                                size: "2.25em",
+                                className: "icons"
                             }}
                         >
                             <div>
                                 <a href="https://drive.google.com/file/u/1/d/15tfnANoty4ZpfQTqUiNw9XIQhUfkCtN-/view?usp=sharing" target="_blank">
-                                    <GrDocumentPdf id="pdfIcon" />
+                                    <GrDocumentPdf/>
                                 </a>
                             </div>
                         </IconContext.Provider>
@@ -267,14 +258,13 @@ function ProjectsPage(props) {
                     <Row className="justify-content-center pt-1">
                         <IconContext.Provider
                             value={{
-                                color: "#4D4C4C",
-                                size: "2em",
-                                style: { margin: "1em" },
+                                size: "2.25em",
+                                className: "icons"
                             }}
                         >
                             <div>
                                 <a href="https://drive.google.com/file/d/1QHhDfsRr5N9LZQ7PUE9f1_CREOR3ZaXv/view" target="_blank">
-                                    <GrDocumentPdf id="pdfIcon" />
+                                    <GrDocumentPdf/>
                                 </a>
                             </div>
                         </IconContext.Provider>
@@ -291,14 +281,13 @@ function ProjectsPage(props) {
                     <Row className="d-flex align-items-end justify-content-center pt-1">
                         <IconContext.Provider
                             value={{
-                                color: "#4D4C4C",
-                                size: "2em",
-                                style: { margin: "1em" },
+                                size: "2.25em",
+                                className: "icons"
                             }}
                         >
                             <div>
                                 <a href="https://docs.google.com/presentation/d/1UwAhCxk1S88JFmYWC9wHbVYlRMV4RsX_LUnlrJMOSqs/edit#slide=id.ga0a7372a9e_2_0" target="_blank">
-                                    <MdSlideshow id="slidesIcon" />
+                                    <MdSlideshow/>
                                 </a>
                             </div>
                         </IconContext.Provider>
@@ -314,14 +303,13 @@ function ProjectsPage(props) {
                     <Row className="justify-content-center pt-1">
                         <IconContext.Provider
                             value={{
-                                color: "#4D4C4C",
-                                size: "2em",
-                                style: { margin: "2px" },
+                                size: "2.25em",
+                                className: "icons"
                             }}
                         >
-                            <div className="mt-2">
+                            <div>
                                 <a href="https://drive.google.com/file/d/1dvH6a35bonSoQhOJbCCbUHktZcv7eCYE/view?usp=sharing" target="_blank">
-                                    <GrDocumentPdf id="pdfIcon" />
+                                    <GrDocumentPdf/>
                                 </a>
                             </div>
                         </IconContext.Provider>

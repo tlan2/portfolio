@@ -7,7 +7,7 @@ function BooksPage(props) {
 
     return(
         <div>
-            <Hero title={props.title} subTitle={props.subTitle}/>
+            <Hero title={props.title} subTitle={props.subTitle} text={props.text}/>
             <BookCarousel />
         </div>
     );

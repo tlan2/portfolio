@@ -82,9 +82,12 @@ function HomePage(props) {
             className="bg-secondary text-white mt-2 px-3 align align-items-center justify-content-center"
         >
             <p className="px-5 pt-4">{item.text}</p>
-            <p className="text-right font-italic px-5 pb-5">- {item.author}
-                {/* <Link to={item.linkedIn} target="_blank"><FaLinkedin size="40px"/></Link>  */}
+            <p className="text-left font-italic px-5 pb-5">- {item.author} &nbsp;
+                <a href={item.linkedIn} target="_blank" className="linkedin-icon">
+                    <FaLinkedin size="30px"/>
+                </a>
             </p>
+            
         </CarouselItem>
         );
   });

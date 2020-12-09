@@ -27,10 +27,10 @@ body {
   /* border: 1px solid red; */
   display:block;
   margin: 0.5% 22%;
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* width: auto;
-  height: 100px; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
 }
 
 
@@ -67,6 +67,22 @@ body {
 
 .black{
   color: black;
+}
+
+.centered-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1% 0%;
+}
+
+.linkedin-icon {
+  color: #ccc;
+}
+
+.linkedin-icon:hover {
+  opacity: 60%;
+  text-decoration: none;
 }
 
 .icons {

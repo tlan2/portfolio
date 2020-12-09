@@ -69,12 +69,12 @@ body {
   color: black;
 }
 
-.centered-icon {
+/* .centered-icon {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 1% 0%;
-}
+} */
 
 .linkedin-icon {
   color: #ccc;
@@ -87,8 +87,10 @@ body {
 
 .icons {
   /* border: 1px solid red; */
+  display: flexbox;
   color: #4D4C4C;
   margin: 0px 5px;
+  /* vertical-align: text-bottom; */
 }
 
 .footer-icons {

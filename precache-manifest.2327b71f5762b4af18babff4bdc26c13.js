@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "77c1bc2529ac011fda05ce7bfb047a86",
+    "revision": "467b00caac49ba38a40f2a93668d229a",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "91dba29513065f67def9",
+    "revision": "78975013e2c3fd2967dd",
     "url": "/portfolio/static/css/main.2cf33185.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.ba1fb815.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "91dba29513065f67def9",
-    "url": "/portfolio/static/js/main.337a7c61.chunk.js"
+    "revision": "78975013e2c3fd2967dd",
+    "url": "/portfolio/static/js/main.7cb805b5.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/howToWinFriends.ef42640c.jpg"
   },
   {
-    "revision": "691ea42d79453c4ecc63b531e97af40a",
-    "url": "/portfolio/static/media/lancaster_resume.691ea42d.pdf"
+    "revision": "1547d0c2e38032101a58b62684a9a632",
+    "url": "/portfolio/static/media/lancaster_resume.1547d0c2.pdf"
   },
   {
     "revision": "8b63e6e8300e8ce0a246ec98fb5beca8",

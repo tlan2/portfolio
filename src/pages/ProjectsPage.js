@@ -35,7 +35,7 @@ function ProjectsPage(props) {
             <CardDeck className="mx-3 mb-4">
                 <Card>
                     <CardImg top width="100%" src={phoneBill} alt="Card image cap" />
-                    <CardBody>
+                    <CardBody className="d-flex flex-column">
                     <CardTitle tag="h5">Phone Bill App</CardTitle>
                     <CardSubtitle tag="h6" className="mb-2 text-muted">Java &bull; Android</CardSubtitle>
                     <CardText>I developed a phone bill application in my 8-week <i>Advanced Programming with Java</i> course that began as a simple program and
@@ -62,7 +62,7 @@ function ProjectsPage(props) {
                     <CardTitle tag="h5">Batter On Deck</CardTitle>
                     <CardSubtitle tag="h6" className="mb-2 text-muted">JavaScript &bull; HTML &bull; CSS-Bootstrap</CardSubtitle>
                     <CardText>I planned, designed, and oversaw a MLB player statistics dashboard that called MLB Data API with 1 other student.</CardText>
-                    <Row className="justify-content-center">
+                    <Row className="justify-content-center mt-5">
                         <IconContext.Provider
                             value={{
                                 size: "2.25em",
@@ -87,7 +87,7 @@ function ProjectsPage(props) {
                     <CardTitle tag="h5">Monopoly Simulator</CardTitle>
                     <CardSubtitle tag="h6" className="mb-2 text-muted">Python-Pandas</CardSubtitle>
                     <CardText>I coded many features of the popular board game Monopoly and performed a 100-turn simulation with 4 players for my final project in my <i>Modeling and Simulation with R and Python</i> course.</CardText>
-                    <Row className="justify-content-center pt-1">
+                    <Row className="justify-content-center mt-4">
                         <IconContext.Provider
                             value={{
                                 size: "2.25em",
@@ -110,7 +110,7 @@ function ProjectsPage(props) {
                     <CardSubtitle tag="h6" className="mb-2 text-muted">JavaScript &bull; HTML &bull; CSS-Bootstrap</CardSubtitle>
                     <CardText>Along with 2 other CS grad students, I helped build and design a trivia website that made REST Web API calls to Open
                         Trivia Database which allowed the user to decide difficulty, category, and the desired number of questions. I created the logo and implemented key design features.</CardText>
-                    <Row className="d-flex align-items-end justify-content-center pt-1">
+                    <Row className="d-flex align-items-end justify-content-center mt-4">
                         <IconContext.Provider
                             value={{
                                 size: "2.25em",
@@ -136,14 +136,14 @@ function ProjectsPage(props) {
                     <CardBody>
                     <CardTitle tag="h5">Writing Samples</CardTitle>
                     <CardText>Here is a PDF file of some my best writing material including my academic paper reviews from Internetworking Protocols, my book report on <i>Sprint</i>, and exam essays.</CardText>
-                    <Row className="justify-content-center pt-1">
+                    <Row className="justify-content-center mt-5">
                         <IconContext.Provider
                             value={{
                                 size: "2.25em",
                                 className: "icons"
                             }}
                         >
-                            <div>
+                            <div className="mt-2">
                                 <a href="https://drive.google.com/file/d/1dvH6a35bonSoQhOJbCCbUHktZcv7eCYE/view?usp=sharing" target="_blank">
                                     <GrDocumentPdf/>
                                 </a>
@@ -201,18 +201,18 @@ function ProjectsPage(props) {
                 </Card>
                 <Card>
                     <CardImg top width="100%" src={financialIndependence} alt="Card image cap" />
-                    <CardBody>
+                    <CardBody className="d-flex flex-column">
                     <CardTitle tag="h5">Uncle Buck</CardTitle>
                     <CardSubtitle tag="h6" className="mb-2 text-muted">React &bull; JavaScript</CardSubtitle>
                     <CardText>A team of 4 students implemented this Full-Stack Web App that helps individuals get an idea of when they can achieve financial independence. I helped implement the calculator form, results, and logo.</CardText>
-                    <Row className="justify-content-center pt-1">
+                    <Row className="justify-content-center mt-5">
                         <IconContext.Provider
                             value={{
                                 size: "2.25em",
                                 className: "icons"
                             }}
                         >
-                            <div>
+                            <div className="mt-4">
                                 <a href="https://uncle-buck.herokuapp.com/" target="_blank">
                                     <FaExternalLinkAlt className="mx-2"/>
                                 </a>
@@ -254,14 +254,14 @@ function ProjectsPage(props) {
                     <CardTitle tag="h5">NBA Player Success Predictions</CardTitle>
                     <CardSubtitle tag="h6" className="mb-2 text-muted">Python &bull; Machine Learning</CardSubtitle>
                     <CardText>Along with 3 other CS grad students, I investigated the relationship between NBA draft prospects' data and career success using Logistic Regression, SVM, and Random Forest machine learning algorithms.</CardText>
-                    <Row className="justify-content-center pt-1">
+                    <Row className="justify-content-center mt-5">
                         <IconContext.Provider
                             value={{
                                 size: "2.25em",
                                 className: "icons"
                             }}
                         >
-                            <div>
+                            <div className="mt-3">
                                 <a href="https://drive.google.com/file/d/1QHhDfsRr5N9LZQ7PUE9f1_CREOR3ZaXv/view" target="_blank">
                                     <GrDocumentPdf/>
                                 </a>
@@ -276,16 +276,16 @@ function ProjectsPage(props) {
                     <CardTitle tag="h5">SFTP Client</CardTitle>
                     <CardSubtitle tag="h6" className="mb-2 text-muted">Java &bull; Agile</CardSubtitle>
                     <CardText>A team of six computer science students and I implemented the Agile process methodology to create an SFTP client in Java. We performed weekly stand-ups (to simulate daily stand-ups), picked up different stories or features, and coded them.</CardText>
-                    <Row className="justify-content-center pt-1">
+                    <Row className="justify-content-center mt-5">
                         <IconContext.Provider
                             value={{
                                 size: "2.25em",
                                 className: "icons"
                             }}
                         >
-                            <div>
+                            <div className="mt-5">
                                 <a href="https://github.com/charboltron/ftp_client_server" target="_blank">
-                                    <FaGithub className="mx-2"/>
+                                    <FaGithub className="mx-2 mt-1"/>
                                 </a>
                             </div>
                         </IconContext.Provider>
